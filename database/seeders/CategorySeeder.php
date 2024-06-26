@@ -14,12 +14,14 @@ class CategorySeeder extends Seeder
     {
         Category::create([
             'name' => 'IOT',
-            'slug' => 'iot-1'
+            'slug' => 'iot-1',
+            'color' => 'blue'
         ]);
         
         Category::create([
             'name' => 'UI UX',
-            'slug' => 'ui-ux'
+            'slug' => 'ui-ux',
+            'color' => 'red'
         ]);
     }
 }
